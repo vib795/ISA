@@ -43,8 +43,8 @@
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'file',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-file-mobile',
+    tLoading: 'Loading file #%curr%...',
+    mainClass: 'mfp-img-mobile',
     gallery: {
       enabled: true,
       navigateByImgClick: true,
