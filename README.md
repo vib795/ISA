@@ -1,12 +1,12 @@
 # [Start Bootstrap - Creative](https://startbootstrap.com/themes/creative/)
 
-[Creative](https://startbootstrap.com/themes/creative/) is a one page, creative website theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Creative](https://www.isaatutsa.org/) is the official website for Indian Student's Association (ISA) at the University of Texas at San Antonio (UTSA).
 
 ## Preview
 
-[![Creative Preview](https://startbootstrap.com/assets/img/screenshots/themes/creative.png)](https://startbootstrap.github.io/startbootstrap-creative/)
+[![Creative Preview](https://www.isaatutsa.org/assets/img/screenshot.JPG)](https://www.isaatutsa.org/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-creative/)**
+**[View Live Preview](https://www.isaatutsa.org/)**
 
 ## Status
 
