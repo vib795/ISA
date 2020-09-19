@@ -1,6 +1,6 @@
 # [Start Bootstrap - Creative](https://startbootstrap.com/themes/creative/)
 
-[Creative](https://www.isaatutsa.org/) is the official website for Indian Student's Association (ISA) at the University of Texas at San Antonio (UTSA).
+[This](https://www.isaatutsa.org/) is the official website for Indian Student's Association (ISA) at the University of Texas at San Antonio (UTSA).
 
 ## Preview
 
