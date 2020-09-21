@@ -39,7 +39,9 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#about') About
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Checklist
+                            a.nav-link.js-scroll-trigger(href='#services') Scholarships Awarded
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Checklist
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
 
@@ -73,58 +75,84 @@ html(lang='en')
         // Services
         section#services.page-section
             .container
-                h2.text-center.mt-0 Checklist for your arrival at San Antonio airport 
+                h2.text-center.mt-0 Scholarships Awarded (Spring 2019 - Now)
                 hr.divider.my-4
                 .row
-                    .col-lg-12.col-md-6.text-center
-                        .mt-3
-                            p.text-muted.mb-0 Ctlr + Click on the links below to download the files. 
-                            p.text-muted.mb-0 OR
-                            p.text-muted.mb-0 Open the below links in a new tab to download respective files. 
-                    
+                    .col-lg-4.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-book.text-primary.mb-4
+                            //h3.h4.mb-2 Utkarsh Singh
+                            a.d-block.h3.h4.mb-2.text-dark(href="https://www.singhutkarsh.com/", target="_blank") Utkarsh Singh
+                            a.d-block(href='assets/docs/Utkarsh_Thank_You_note.pdf', target="_blank", Download='assets/docs/Utkarsh_Thank_You_note.pdf') Letter of gratitude to scholarship providers
+                    .col-lg-4.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-book.text-primary.mb-4
+                            h3.h4.mb-2 Dev Priya
+                            //a.d-block(href='assets/docs/Utkarsh_Thank_You_note.pdf', target="_blank", Download='assets/docs/Utkarsh_Thank_You_note.pdf') Letter of gratitude to providers
+                    .col-lg-4.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-book.text-primary.mb-4
+                            a.d-block.h3.h4.mb-2.text-dark(href="https://www.linkedin.com/in/divyashivakumar10/", target="_blank") Divya Shivakumar
+                            a.d-block(href='assets/docs/Divya_Thank_You_note.pdf', target="_blank", Download='assets/docs/Divya_Thank_You_note.pdf') Letter of gratitude to scholarship providers
 
+        
         // Portfolio
         div#portfolio
             .container-fluid.p-0
                 .row.no-gutters
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/travelinfo.pdf', Download='assets/img/portfolio/fullsize/travelinfo.pdf')
+                        a.portfolio-box(href='assets/docs/travelinfo.pdf', Download='assets/docs/travelinfo.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/1.jpg')
                             .portfolio-box-caption
                                 .project-name
                                     | Travel information
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/predepartureinformation.pdf', Download='assets/img/portfolio/fullsize/predepartureinformation.pdf')
+                        a.portfolio-box(href='assets/docs/predepartureinformation.pdf', Download='assets/docs/predepartureinformation.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/2.jpg')
                             .portfolio-box-caption
                                 .project-name
                                     | Pre departure information
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/pickuprequest.pdf', Download='assets/img/portfolio/fullsize/pickuprequest.pdf')
+                        a.portfolio-box(href='assets/docs/pickuprequest.pdf', Download='assets/docs/pickuprequest.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg')
                             .portfolio-box-caption
                                 .project-name
                                     | Pick up request
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/postarrivalinformation.pdf', Download='assets/img/portfolio/fullsize/postarrivalinformation.pdf')
+                        a.portfolio-box(href='assets/docs/postarrivalinformation.pdf', Download='assets/docs/postarrivalinformation.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg')
                             .portfolio-box-caption
                                 .project-name
                                     | Post arrival information
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/housinginformation.pdf', Download='assets/img/portfolio/fullsize/housinginformation.pdf')
+                        a.portfolio-box(href='assets/docs/housinginformation.pdf', Download='assets/docs/housinginformation.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg')
                             .portfolio-box-caption
                                 .project-name
                                     | Housing information
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/bankinformation.pdf', Download='assets/img/portfolio/fullsize/bankinformation.pdf')
+                        a.portfolio-box(href='assets/docs/bankinformation.pdf', Download='assets/docs/bankinformation.pdf')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg')
                             .portfolio-box-caption.p-3
                                 .project-name
                                     | Bank Information
-
-
+        
+        // Call to action
+        section.page-section.bg-dark.text-white
+             .container.text-center
+                h2.mb-4 Checklist for your arrival at San Antonio airport
+                hr.divider.my-4
+                .row
+                    .container.text-center
+                        h5.mb-2 Ctlr + Click on the links above to download the files. 
+                .row
+                    .container.text-center
+                        h5.mb-2 OR
+                .row
+                    .container.text-center
+                        h5.mb-2 Open the above links in a new tab to download respective files. 
+                        p
+                            
         // Contact
         section#contact.page-section
             .container
@@ -140,22 +168,38 @@ html(lang='en')
                             a.d-block(href='https://chat.whatsapp.com/LAiZaq4Z4wyJkGIHm2Ij1V', target="_blank") PickUp WhatsApp group
                         p.text-muted.mb-1
                             a.d-block(href='https://chat.whatsapp.com/Gyz620J9v9nFqQL9rvoxJP', target="_blank") UTSA official group
+                        p.text-muted.mb-1
+                            a.d-block(href='mailto:isa.utsa@gmail.com') ISA e-mail
                         p.text-muted.mb-5
                             a.d-block(href='https://forms.gle/myhZ8FHYqmH56eZw9', target="_blank") ISA Membership form
+                        
+                p.text-muted.d-block
                 .row
-                    .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
+                    .col-lg-3.ml-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-phone.fa-3x.mb-3.text-muted
                         div Saketh Ram Peri (President - ISA)
-                        div +1 (832) 278-8002
-                    .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
+                        a.d-block(href='tel:8322788002') +1 (832) 278-8002
+                        p
+                        img.container.text-center(src='assets/img/portfolio/thumbnails/saketh.jpg')
+                    .col-lg-3.ml-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-phone.fa-3x.mb-3.text-muted
                         div Pratik Mitra (Vice-President - ISA)
-                        div +1 (210) 529-0509
-                    .col-lg-4.mr-auto.text-center
+                        a.d-block(href='tel:2105290509') +1 (210) 529-0509
+                        p
+                        img.container.text-center(src='assets/img/portfolio/thumbnails/pratik.jpg')
+                    .col-lg-3.ml-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-envelope.fa-3x.mb-3.text-muted
-
-                        // Make sure to change the email address in BOTH the anchor text and the link target below!
-                        a.d-block(href='mailto:isa.utsa@gmail.com') isa.utsa@gmail.com
+                        div Divya Shivakumar (Treasurer - ISA)
+                        a.d-block(href='mailto:divyashivakumar10@gmail.com') divyashivakumar10@gmail.com
+                        p
+                        img.container.text-center(src='assets/img/portfolio/thumbnails/divya.jpg')
+                    .col-lg-3.ml-auto.text-center.mb-5.mb-lg-0
+                        i.fas.fa-phone.fa-3x.mb-3.text-muted
+                        div Rini Joshi (Secretary - 
+                        div ISA)
+                        a.d-block(href='tel:2106369488') +1 (210) 636-9488
+                        p
+                        img.container.text-center(src='assets/img/portfolio/thumbnails/rini.jpg')    
 
         // Footer
         footer.bg-light.py-5
